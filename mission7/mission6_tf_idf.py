@@ -1,10 +1,7 @@
-'mission 6 of zhangjingjing'
 import os
 import math
 from xlsx_reader import read_words_from_col
 from word_split_retr import word_split
-
-
 
 def main():
     words = read_words_from_col('./词表/words.xlsx')

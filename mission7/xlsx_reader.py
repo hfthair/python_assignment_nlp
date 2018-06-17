@@ -1,6 +1,4 @@
-'read xls'
 import xlrd
-
 
 def read_words_from_col(file_path, fix_stopword_err=False):
     'read second col from xls file'
@@ -20,7 +18,6 @@ def read_words_from_col(file_path, fix_stopword_err=False):
             else:
                 words.append(tmp)
     return words
-
 
 if __name__ == '__main__':
     reads = read_words_from_col('./词表/words.xlsx')

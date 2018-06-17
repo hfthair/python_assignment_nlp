@@ -1,6 +1,5 @@
 import os
 
-
 def get_marks_for_word(word):
     if len(word) == 1:
         return ['BE']
@@ -79,11 +78,6 @@ def main():
     else:
         print('error~')
 
-
-
-
-
-
 if __name__ == '__main__':
     if True:
         main()
@@ -96,10 +90,3 @@ if __name__ == '__main__':
                 l = map(lambda x, y: x + '\t' + y + '\n', word, marks)
                 s = ''.join(l)
                 print(s)
-                # if len(word) == 1:
-                #     print(word[0] + '\tBE\n')
-                # else:
-                #     line = '\tM\n'.join(word)
-                #     line = line.replace('M', 'B', 1)
-                #     line = line + '\tE\n'
-                #     print(line)

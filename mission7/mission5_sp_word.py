@@ -1,11 +1,8 @@
-'zhangjingjing homework'
 import os
 from xlsx_reader import read_words_from_col
 from word_split_retr import word_split
 
-
 def main():
-    '...'
     out_dir = './output'
     if not os.path.exists(out_dir):
         os.makedirs(out_dir)

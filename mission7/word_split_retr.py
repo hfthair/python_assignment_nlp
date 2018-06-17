@@ -1,8 +1,4 @@
-'zjj'
 from collections import deque
-
-# import sys
-# sys.setrecursionlimit(1500)
 
 def word_split(src, words, blacklist):
     'modify because of maximum recursion depth'
